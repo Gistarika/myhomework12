@@ -1,0 +1,212 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body{
+  background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 163px;
+    padding: 80px;
+    padding-top: 55px;
+    padding-bottom: 36px;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:65px;
+    text-shadow: 0px 4px 7.4px 0px #FFFFFF;
+    list-style-type: none;
+}
+ul li{
+  font-family: "Inter", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+   text-shadow: 0px 4px 7.4px 0px #FFFFFF;
+color: white;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.ota{
+    background-image: url("./bk.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;                  
+    width: 100%;
+     
+}
+.ota{
+   height: 700px;                  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 193px;
+    margin-right: 101px;
+    margin-left: 87px;
+    gap: 245px;
+    margin: 183px auto;
+}
+.box{
+    background-color: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+  width: 237px;
+  height: 209px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+padding-bottom: 34px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: red;
+}
+.childbox1{
+   width: 237px;
+  height: 209px;
+  background-color: #F70101;
+  box-shadow: 0px 18px 26.5px 0px #FB000040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -115px;
+  left: 100px;
+   color: white;
+}
+.childbox2{
+      background-color: #F70101;
+  box-shadow: 0px 18px 26.5px 0px #FB000040;
+    width: 411px;
+height: 209px;
+position:absolute ;
+border-radius: 100px;
+top: -115px;
+left: -85px;
+display: flex;
+align-items: center;
+justify-content: center;
+ color: white;
+}
+.childbox3{
+       width: 237px;
+  height: 209px;
+  background-color: #F70101;
+  box-shadow: 0px 18px 26.5px 0px #FB000040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -115px;
+  left: -100px;
+  color: white;
+}
+.btn{
+ font-family: "Inter", sans-serif;
+font-weight: 700;
+display: flex;
+justify-content: center;
+font-size: 45px;
+width: 602px;
+height: 75px;
+margin: 37px auto;
+align-items: center;
+border-radius: 30px;
+margin-top: 37px;
+
+}
+.bttn{
+     font-family: "Inter", sans-serif;
+font-weight: 700;
+display: flex;
+justify-content: center;
+font-size: 45px;
+width: 602px;
+height: 75px;
+margin: 79px auto;
+align-items: center;
+border-radius: 30px;
+background: white;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+}
+.card{
+  background-color:  #7B2525; 
+  width: 368px;
+height: 332px;
+padding: 16px;
+opacity: 1;
+
+}
+.card h1{
+color: white;
+text-shadow: 0px 4px 7.4px 0px #FFFFFF;
+
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+font-family: "Inter", sans-serif;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 50px ;
+}
+.card p{
+font-family: "Inter", sans-serif;  
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+color: white;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 265px;
+height: 96px;
+margin: 68px auto;
+}
+.card img{
+    margin: 0 auto;
+    margin-top: 36px;
+    text-align: center;
+}
+.uu{
+    margin-top: 36px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
